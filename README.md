@@ -9,7 +9,7 @@ The package contains a **SwipeCard** widget allowing to make content swipable.
 To import the widget:
 
 ```dart
-import 'package:swipe_card/swipe_card.dart'
+import 'package:flutter_swipable/flutter_swipable.dart'
 ```
 
 Make a widget *swipable*:
@@ -65,7 +65,7 @@ _controller.add(swipeAngle);
 
 Now we're able to swipe content programmatically:
 
-![Basic Swipe](./assets/programmatically_swipe.gif)
+![Basic Swipe](./readme_assets/programmatically_swipe.gif)
 
 ### Hooks
 
