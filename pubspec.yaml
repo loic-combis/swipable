@@ -1,8 +1,9 @@
-name: swipe_card
-description: A new Flutter package project.
-version: 0.0.1
-author:
-homepage:
+name: swipable
+description: The easiest way to implement a tinder-like swipe card mechanism in Flutter.
+version: 0.1.0
+author: 
+homepage: https://www.linkedin.com/in/lo%C3%AFc-combis-a211a813a/?locale=en_US
+repository: https://github.com/combisloic/swipe_card
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

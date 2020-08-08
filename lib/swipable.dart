@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'dart:math' as math;
 
-class SwipeCard extends StatefulWidget {
+class Swipable extends StatefulWidget {
   /// @param child [Widget]
   /// @required
   /// Swipable content.
@@ -71,7 +71,7 @@ class SwipeCard extends StatefulWidget {
   /// The bigger, the easier it is to swipe.
   final double threshold;
 
-  SwipeCard({
+  Swipable({
     @required this.child, 
     this.onSwipeRight, 
     this.onSwipeLeft, 
@@ -88,10 +88,10 @@ class SwipeCard extends StatefulWidget {
   });
 
   @override
-  SwipeCardState createState() => SwipeCardState();
+  SwipableState createState() => SwipableState();
 }
 
-class SwipeCardState extends State<SwipeCard> {
+class SwipableState extends State<Swipable> {
   double _positionY = 0;
   double _positionX = 0;
 
