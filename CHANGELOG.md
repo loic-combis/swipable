@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.1.0] - 08/08/2020
 
-* TODO: Describe initial release.
+* Initial release, containing the **Swipable** widget.
