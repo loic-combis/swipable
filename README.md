@@ -24,9 +24,6 @@ Swipable(
 )
 ```
 
-This is what you should obtain:
-![Basic Swipe](./assets/basic_swipe.gif)
-
 ## Configuration
 
 ### Trigger an automatic swipe
@@ -51,7 +48,7 @@ StreamController<double> _controller = StreamController<double>();
 
 /// Pass the stream to the widget
 Swipable(
-    swipe: _controller.strem
+    swipe: _controller.stream
     child: Container(
         height: double.infinity,
         width: double.infinity,
