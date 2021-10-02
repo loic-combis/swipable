@@ -209,13 +209,12 @@ class SwipableState extends State<Swipable> {
       // horizontal speed or vertical speed is enough to make the card disappear in _duration ms.
       newX = potentialX;
       newY = potentialY;
-
-      widget.onSwipeEnd!(currentPosition, details);
+      widget.onSwipeEnd?.call(currentPosition, details);
     } else {
       newX = 0;
       newY = 0;
 
-      widget.onSwipeCancel!(currentPosition, details);
+      widget.onSwipeCancel?.call(currentPosition, details);
     }
 
     setState(() {

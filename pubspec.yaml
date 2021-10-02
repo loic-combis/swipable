@@ -1,6 +1,6 @@
 name: flutter_swipable
 description: The easiest way to implement a tinder-like swipe card mechanism in Flutter or make any content swipable.
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/loic-combis
 repository: https://github.com/loic-combis/swipable
 
