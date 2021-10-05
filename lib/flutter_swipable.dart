@@ -71,7 +71,8 @@ class Swipable extends StatefulWidget {
   /// The bigger, the easier it is to swipe.
   final double? threshold;
 
-  Swipable({
+  Swipable(
+      {Key? key,
     @required this.child, 
     this.onSwipeRight, 
     this.onSwipeLeft, 
@@ -84,8 +85,8 @@ class Swipable extends StatefulWidget {
     this.swipe,
     this.animationDuration = 300,
     this.animationCurve = Curves.easeInOut,
-    this.threshold = 0.3
-  });
+      this.threshold = 0.3})
+      : super(key: key);
 
   @override
   SwipableState createState() => SwipableState();
