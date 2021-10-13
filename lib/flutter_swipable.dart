@@ -82,6 +82,7 @@ class Swipable extends StatefulWidget {
   final bool verticalSwipe;
 
   Swipable({
+    Key? key,
     @required this.child,
     this.onSwipeRight,
     this.onSwipeLeft,
@@ -97,7 +98,7 @@ class Swipable extends StatefulWidget {
     this.horizontalSwipe = true,
     this.verticalSwipe = true,
     this.threshold = 0.3,
-  });
+  }): super(key: key);
 
   @override
   SwipableState createState() => SwipableState();
