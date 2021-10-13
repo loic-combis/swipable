@@ -130,6 +130,16 @@ final Curve animationCurve;
 /// Defines the strength needed for a card to be swiped.
 /// The bigger, the easier it is to swipe.
 final double threshold;
+
+/// @param horizontalSwipe [bool]
+/// To enable or disable the swipe in horizontal direction.
+/// defaults to true.
+final bool horizontalSwipe;
+
+/// @param verticalSwipe [bool]
+/// To enable or disable the swipe in vertical direction.
+/// defaults to true.
+final bool verticalSwipe;
 ```
 
 ## Author
